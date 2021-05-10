@@ -1,0 +1,44 @@
+#board {
+padding-top: 3em;
+text-align: center;
+font-family:Arial, Helvetica, sans-serif;
+color: purple;
+}
+
+.row > div {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+.row {
+    clear: both;
+    width: 302px;
+    margin: 0 auto;
+}
+
+.top {
+    border-bottom: 1px solid black;
+}
+
+.bottom {
+    border-top: 1px solid black;
+}
+
+.left {
+    border-right: 1px solid black;
+}
+
+.right {
+    border-left: 1px solid black;
+}
+
+.row:hover {
+    cursor: pointer;
+}
+
+h1:hover {
+     color: greenyellow;
+     font-style: italic;
+     }
+
